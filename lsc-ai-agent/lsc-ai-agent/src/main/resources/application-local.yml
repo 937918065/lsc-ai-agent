@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: lsc-ai-agent
+  ai:
+    dashscope:
+      api-key: sk-0c9d293c27de49c29f097f71931dc5f5
+      chat:
+        options:
+          model: qwen-plus
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: gemma3:1b
+
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+# springdoc-openapi
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.lscai.lscaiagent.controller
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
