@@ -1,0 +1,8 @@
+com\lscai\lscaiagent\demo\invoke\SpringAiInvoke.class
+com\lscai\lscaiagent\demo\invoke\HttpAiInvoke.class
+com\lscai\lscaiagent\demo\invoke\TestAPiKey.class
+org\lscai\lscaiagent\controller\HealthController.class
+com\lscai\lscaiagent\demo\invoke\OllamaAiInvoke.class
+com\lscai\lscaiagent\demo\invoke\SdkAiInvoke.class
+com\lscai\lscaiagent\demo\invoke\LangChainAiInvoke.class
+com\lscai\lscaiagent\LscAiAgentApplication.class
